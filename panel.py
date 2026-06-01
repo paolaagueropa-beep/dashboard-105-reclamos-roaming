@@ -13,7 +13,7 @@ import hashlib
 import hmac
 
 st.set_page_config(
-    page_title="Dashboard KPI — Servicio Técnico ECC",
+    page_title="Dashboard KPI – 105 Reclamos & Roaming",
     page_icon="📊",
     layout="wide"
 )
@@ -21,7 +21,7 @@ st.set_page_config(
 # ════════════════════════════════════════════════════════════
 # CONFIGURACIÓN — ACTUALIZA DRIVE_ID CON EL ID DE Dashboard_KPI_ECC.xlsx
 # ════════════════════════════════════════════════════════════
-DRIVE_ID = "1n37x4ufR_u5IcDGXqhm13FYyaY48NGjX"   # ← reemplazar por ID del archivo fijo
+DRIVE_ID = "13ahBT1XRC9Li6005WJvKkbA6ceciJHeI"   # ← reemplazar por ID del archivo fijo
 OBJETIVO_COPC_DEFAULT = 86.0
 
 # ════════════════════════════════════════════════════════════
