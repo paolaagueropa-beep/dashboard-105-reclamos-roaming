@@ -55,7 +55,7 @@ def mostrar_login():
         st.markdown("""
         <div style='text-align:center; margin-bottom:30px'>
             <h1 style='font-size:28px'>📊 Dashboard KPI</h1>
-            <p style='color:gray; font-size:15px'>Servicio Técnico ECC</p>
+            <p style='color:gray; font-size:15px'>105 Reclamos & Roaming</p>
         </div>
         """, unsafe_allow_html=True)
         with st.form("login_form"):
@@ -350,7 +350,7 @@ def card_metric(col, titulo, valor, subtitulo, color="#3498db", icon="📌"):
 # ════════════════════════════════════════════════════════════
 # HEADER + CARGA
 # ════════════════════════════════════════════════════════════
-st.title("📊 Dashboard KPI — Servicio Técnico ECC")
+st.title("📊 Dashboard KPI — 105 Reclamos & Roaming")
 hoy = datetime.now()
 st.markdown(f"""
 <div style='background:#2c3e5020; border-left:5px solid #3498db;
@@ -1311,6 +1311,6 @@ with tab6:
 st.markdown('---')
 st.markdown("""
 <div style='text-align:center; color:gray; font-size:12px'>
-    📊 Dashboard KPI — Servicio Técnico ECC &nbsp;|&nbsp;
+    📊 Dashboard KPI — 105 Reclamos & Roaming &nbsp;|&nbsp;
     👩‍💼 Desarrollado por: <b>Paola Agüero — Owner Capacidad Operativa</b>
 </div>""", unsafe_allow_html=True)
